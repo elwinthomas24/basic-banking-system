@@ -1,0 +1,160 @@
+
+/*orange used: #e67e22;
+ hover orange: #cf6d17 */
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: lato;
+    font-size: 20px;
+    overflow-x: hidden;
+
+    
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.712),
+    rgba(0, 0, 0, 0.753)), url(img/bg_img4.jpg);
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*-----REUSABLES-----*/
+
+.row{
+    margin:0 auto;
+    max-width: 1140px;
+}
+
+h1{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 80px;
+}
+
+h3{
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.main-heading{
+    position:absolute;
+    color:#ffffff;
+    width:1140px;
+    top:30%;
+    left:18%;
+    font-size: 24px;
+    
+}
+
+.second-msg{
+    
+    width:1140px;
+    margin-top:50px;
+    margin-left:33%;
+}
+
+
+
+/*---NAV LINKS----*/
+
+.home-navbar li{
+    float: right;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    padding:10px;
+    
+    list-style: none;
+}
+.nav-link:link,
+.nav-link:visited{
+    text-decoration: none;
+    border:1px solid transparent;
+    transition: border-bottom 0.5s,color 0.5s;
+    color:#ffffff;
+    
+    padding: 12px 0;
+}
+
+.nav-link:hover,
+.nav-link:active{
+    border-bottom: 2px solid #e67e22 ;
+}
+
+/*---BUTTONS---*/
+
+.btn{
+    font-size:16px;
+    font-weight: 300;
+    
+
+}
+
+.btn-full{
+    text-decoration: none;
+    border-radius:10px; 
+    display: inline-block;
+    padding: 12px 15px;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    
+    color: #ffffff;
+    background-color: #e67e22;
+    border:1px solid #e67e22;
+    
+    
+}
+
+.btn-full:hover,
+.btn-full:active{
+    background-color: #cf6d17;
+    
+
+}
+
+.btn-get-started{
+    margin-top:60px;
+    
+    margin-left:39%;
+}
+
+.fixed-footer{
+    width: 100%;
+    position : fixed;
+    background: rgb(32, 32, 32);
+   font-size:16px;
+    color:#ffffff;
+    /*margin-left:-8px;*/
+    height:40px;
+    bottom: 0;
+}
+.container{
+    font-weight: 300;
+    width: 80%;
+    margin-left:  auto; 
+    margin-right:auto;
+    text-align: center;
+    
+   
+    word-spacing:2px;
+    margin-bottom:30px;
+    margin-top:7px;
+    
+}
+

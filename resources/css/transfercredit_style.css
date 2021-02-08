@@ -1,0 +1,127 @@
+/* pink color:  #E91E63;  */
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.row{
+    margin:0 auto;
+    max-width:1140px;
+}
+html{
+    font-family: lato;
+   
+}
+
+
+
+header{
+    background-color:  #E91E63;
+}
+
+h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+
+h2:after{
+    display: block;
+    content:" ";
+    background-color: #E91E63;
+    width:100px;
+    height:2px;
+    margin:0 auto;
+    margin-top:20px;
+    margin-bottom: 50px;
+}
+
+.users-navbar li{
+    /*--display: inline-block;--*/
+    float:right;
+    
+    font-size: 18px;
+    font-weight: 300;
+    padding:10px;
+    text-transform: uppercase;
+    list-style: none;
+    margin-right: 5px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.nav-link:link,
+.nav-link:visited{
+    color:#ffffff;
+    text-decoration: none;
+    padding:10px;  
+    padding-bottom: 16px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s color 0.5s;
+}
+
+.nav-link:hover,
+.nav-link:active{
+
+    padding:10px;
+    padding-bottom: 15px;
+    border-bottom:4px solid #fff;
+}
+
+
+.success-msg{
+    font-weight: 400;
+    margin-top:50px;
+    margin-bottom: 70px;
+    text-align:left;
+    padding:12px;
+    width:100%;
+    background-color: #c2ee75;
+    color:#4F8A10;
+}
+
+#my_table{
+    background-color: #fff;
+    width:100%;
+    border-collapse:collapse;
+    border:1px solid rgb(218, 215, 215);
+    margin:30px auto;
+}
+
+th{
+    background-color: #aaf0dd;
+    font-weight: 300;
+}
+
+th,td{
+    padding:15px;
+    text-align: left;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.return-to-users-div{
+    margin-top:90px;
+    text-align: right;
+}
+
+.btn-ghost{
+    text-decoration: none;
+    color:rgb(172, 171, 171);
+    padding: 7px;
+    transition: border-bottom 0.2s color 0.2s;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border-bottom:1px solid #E91E63;
+}
