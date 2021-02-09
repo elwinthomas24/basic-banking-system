@@ -105,7 +105,7 @@ if(isset($_POST['transfer']))
         <div class ="row">
         <nav>
                     <ul class ="users-navbar">
-                        <li><a class="nav-link" href="Homepage.php">home</a></li>
+                        <li><a class="nav-link" href="index.php">home</a></li>
                         <li><a class="nav-link" href="transferhistory.php">transfer history</a></li>
                        <!-- <li><a class="nav-link" href="#">transfer</a></li>   --->
                     </ul>

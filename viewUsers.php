@@ -25,7 +25,7 @@
         
         <nav>
                     <ul class ="users-navbar">
-                        <li><a class="nav-link" href="Homepage.php">home</a></li>
+                        <li><a class="nav-link" href="index.php">home</a></li>
                         <li><a class="nav-link" href="transferhistory.php">transfer history</a></li>
                         <li><a class="nav-link" href="transfer1.php">transfer</a></li>
                     </ul>

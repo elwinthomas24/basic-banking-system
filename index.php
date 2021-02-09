@@ -1,24 +1,5 @@
-<?php
-	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
-		$uri = 'https://';
-	} else {
-		$uri = 'http://';
-	}
-	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/dashboard/');
-	exit;
-?>
-Something is wrong with the XAMPP installation :-(
+<?php include 'dbconn.php'?>
 
-
-
-
-
-
-
-
-
-<!---
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,22 +15,19 @@ Something is wrong with the XAMPP installation :-(
 <body>
 <header>
         <div class ="row">
-        <div class="logo">
-                <img src="resources/img/tsf_logo_full.png" class="logo-img">
-
-            </div>
+    
             
             <nav>
             <ul class = "home-navbar">
-               <li><a class = "nav-link" href="#">CONTACT</a></li> 
-               <li><a class ="nav-link" href="#">ABOUT</a></li>
+               
+               <li><a class ="nav-link" href="aboutUs.php">ABOUT</a></li>
             </ul>
             </nav>
 
         </div>
         <div class= "row">
             <div class= "main-heading">
-            <h1>Welcome to The Sparks Foudation Bank</h1>
+            <h1>Welcome to The Influx Oriental Bank</h1>
             <div class="second-msg">
             <h3><i>We're glad to have you here.</i></h3>
         </div>
@@ -74,4 +52,4 @@ Something is wrong with the XAMPP installation :-(
 </div>
 </div>
 
-    </html>  --->
+    </html> 

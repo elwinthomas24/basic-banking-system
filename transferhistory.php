@@ -22,7 +22,7 @@ $result = mysqli_query($con,$query);
         <div class ="row">
         <nav>
                     <ul class ="users-navbar">
-                        <li><a class="nav-link" href="Homepage.php">home</a></li>
+                        <li><a class="nav-link" href="index.php">home</a></li>
                         <li><a class="nav-link" href="viewUsers.php">View Users</a></li> 
                        <!-- <li><a class="nav-link" href="#">transfer</a></li>   --->
                     </ul>

@@ -21,7 +21,7 @@
     
             <nav>
             <ul class = "home-navbar">
-               <li><a class = "nav-link" href="Homepage.php">BACK</a></li> 
+               <li><a class = "nav-link" href="index.php">BACK</a></li> 
              
             </ul>
             </nav>
