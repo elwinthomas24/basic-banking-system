@@ -27,7 +27,7 @@
         </div>
         <div class= "row">
             <div class= "main-heading">
-            <h1>Welcome to The Influx Oriental Bank</h1>
+            <h1>Welcome to The Influx Oriental Bank</h1></div>
             <div class="second-msg">
             <h3><i>We're glad to have you here.</i></h3>
         </div>
@@ -38,10 +38,8 @@
             </div>
             </div>
             
-        </div>
-        <div class= "row">
-           
-        </div>
+        
+        
 
     </header>
    

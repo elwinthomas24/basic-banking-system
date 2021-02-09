@@ -59,8 +59,13 @@ h3{
 .second-msg{
     
     width:1140px;
-    margin-top:50px;
-    margin-left:33%;
+    position:absolute;
+    color:#ffffff;
+    
+    top:50%;
+    left:40%;
+    font-size: 24px;
+    
 }
 
 
@@ -100,7 +105,10 @@ h3{
 .btn{
     font-size:16px;
     font-weight: 300;
-    
+    left:15%;
+    top:55%;
+    position:absolute;
+    width:1140px;
 
 }
 
