@@ -12,6 +12,7 @@ $result = mysqli_query($con,$query);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="resources/css/transferhistory_style.css">
+	<link rel="stylesheet" type ="text/css" href="resources/css/transfer_queries.css">
     <link rel="stylesheet" type="text/css" href="vendor/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" type="text/css">

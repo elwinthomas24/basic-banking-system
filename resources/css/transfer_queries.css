@@ -1,0 +1,90 @@
+@media only screen and (max-width: 767px){
+    
+}
+
+@media only screen and (max-width: 480px){
+    .row{
+        padding:0 2%;
+    }
+   
+    h2{
+        font-size:16px;
+        font-weight:400;
+    }
+
+    
+    label{
+  
+        font-weight: 400;
+        font-size:16px;
+    
+    }
+    
+select{
+    
+    width:100%;
+    padding:7px;
+    border-radius:3px;
+    border:1px solid #ccc;
+}
+    
+    .users-navbar li{
+        
+        
+        font-size: 14px;
+        
+        padding:5px;
+       
+     
+        margin-right: 2px;
+        margin-top:5px;
+        margin-bottom: 5px;
+    }
+    .nav-link:hover,
+    .nav-link:active{
+        padding-bottom: 5px;
+    }
+    .btn-submit{
+       left:35%;
+    }
+    input[type=submit]{
+        padding:10px 30px;
+       }
+    .fixed-footer{
+        font-size:14px;
+        height:35px;
+    }
+
+    .transfer-button{
+       
+        padding: 10px 15px;
+      font-size: 15px;
+      }
+      .btn-div{
+      
+        margin-left:30%;
+    }
+
+      #my-table{
+        margin:30px auto;
+        font-size:16px;
+    }
+    #my_table3{
+        margin:30px auto;
+        font-size:16px;
+    }
+    
+    th, td {
+        padding:8px;
+      }
+      .btn-ghost{
+   
+        font-size: 14px;
+    
+    }
+}
+
+
+@media only screen and (max-width: 400px){
+   
+}
